@@ -52,21 +52,9 @@ export default function HomePage() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        
         <Summary />
         <AgentReply inbox={inboxData} sendEmails={sendEmails} />
-
-
-        <div className="p-4 border rounded shadow">
-          <h2 className="text-lg font-semibold mb-2">📅 Calendar Events</h2>
-          <p className="text-sm text-gray-600">Upcoming events or meetings will be shown here.</p>
-        </div>
-
-        <div className="p-4 border rounded shadow">
-          <h2 className="text-lg font-semibold mb-2">💸 Budget Info</h2>
-          <p className="text-sm text-gray-600">Financial insights based on emails go here.</p>
-        </div>
-      </div>
+       </div>
     </div>
   );
 }
